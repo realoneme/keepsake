@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+.vercel/
+.env*
+!.env.example
+*.tsbuildinfo
+next-env.d.ts
+test-results/
+playwright-report/
+.DS_Store
+
+# keep the lockfile in this repo (Vercel runs npm ci), even though a global gitignore may drop it
+!package-lock.json

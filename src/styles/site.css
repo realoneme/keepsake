@@ -1,12 +1,3 @@
-/* Keepsake's own paper colours, on top of the design system's tokens. */
-:root, [data-theme='parchment'] {
-  --card: #f6eedb;
-  --secondary: var(--card);
-  --muted-foreground: #6a5642;
-  --accent: var(--muted);
-  --seal: #9e3b2b;
-}
-
 /* Keepsake layout. Spacing lives here as one scale, per breakpoint; pages use these names and never their own numbers. */
 :root {
   --font-display: var(--font-fraunces), "Iowan Old Style", Georgia, serif;

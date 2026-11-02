@@ -4,7 +4,7 @@
   "private": true,
   "description": "Keepsake: a paper-cut portfolio and printed-album site for wedding, family and portrait photographers, built with Next.js.",
   "engines": {
-    "node": ">=20.9"
+    "node": "24.x"
   },
   "scripts": {
     "dev": "next dev",

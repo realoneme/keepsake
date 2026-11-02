@@ -22,7 +22,7 @@ The site runs at http://localhost:3000.
 | Which albums appear on the home page | set `featured` on an album |
 | Prices and packages | `src/content/packages.ts` |
 | Testimonials and questions | `src/content/testimonials.ts`, `src/content/faq.ts` |
-| Colours | `src/styles/tokens.css`, with Keepsake's own paper colours at the top of `src/styles/site.css` |
+| Colours | the [Paper Album UI](https://github.com/realoneme/paper-album-ui) tokens; override any of them in `src/styles/site.css` |
 | Spacing | the scale at the top of `src/styles/site.css` |
 
 Values in square brackets, such as `[Studio Name]`, are placeholders.
@@ -53,6 +53,6 @@ Runs the type checker, ESLint, the unit tests, a production build and the Playwr
 
 ## Stack
 
-Next.js 16 (App Router), React 19 and TypeScript. The components in `src/components/ui` and the styles in `src/styles` come from [Paper Album UI](https://github.com/realoneme/paper-album-ui). Fonts are Fraunces, Instrument Sans and Caveat, served by `next/font`.
+Next.js 16 (App Router), React 19 and TypeScript. The buttons, form controls, accordion and photo holders come from the [`paper-album-ui`](https://www.npmjs.com/package/paper-album-ui) package (`npm update paper-album-ui` picks up its fixes); its stylesheet is imported once in `src/app/layout.tsx`. Fonts are Fraunces, Instrument Sans and Caveat, served by `next/font`.
 
 The photographs and the people in them are AI-generated placeholders; replace them with your own.

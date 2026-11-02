@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Print } from '@/components/photo';
-import { Button } from '@/components/ui/button';
+import { Button } from 'paper-album-ui';
 import { images } from '@/content/images';
 
 export const metadata: Metadata = { title: 'Page not found' };

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Print } from '@/components/photo';
-import { Button } from '@/components/ui/button';
+import { Button } from 'paper-album-ui';
 import { albumBySlug, albums, nextAlbum } from '@/content/albums';
 
 interface AlbumPageProps {

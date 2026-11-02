@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, type FormEvent, type ReactNode } from 'react';
-import { Button } from '@/components/ui/button';
+import { Button } from 'paper-album-ui';
 import { site } from '@/content/site';
 import type { InquiryKind } from '@/lib/inquiry';
 

@@ -6,7 +6,7 @@ import { Heading } from '@/components/heading';
 import { PaperBanner } from '@/components/paper-banner';
 import { Print } from '@/components/photo';
 import { ScrollRow } from '@/components/scroll-row';
-import { Button } from '@/components/ui/button';
+import { Button } from 'paper-album-ui';
 import { featuredAlbums } from '@/content/albums';
 import { images } from '@/content/images';
 import { testimonials } from '@/content/testimonials';

@@ -4,8 +4,7 @@ import { SiteFooter } from '@/components/site-footer';
 import { SiteHeader } from '@/components/site-header';
 import { site, siteUrl } from '@/content/site';
 import { caveat, fraunces, instrumentSans } from '@/styles/fonts';
-import '@/styles/tokens.css';
-import '@/styles/paper-album.css';
+import 'paper-album-ui/styles.css';
 import '@/styles/site.css';
 
 export const metadata: Metadata = {

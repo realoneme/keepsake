@@ -1,5 +1,5 @@
 import NextImage from 'next/image';
-import { PhotoHolder, type PhotoHolderVariant } from '@/components/ui/photo-holder';
+import { PhotoHolder, type PhotoHolderVariant } from 'paper-album-ui';
 import type { Image } from '@/content/types';
 
 interface PrintProps {

@@ -1,7 +1,7 @@
 import type { CSSProperties, ReactNode } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
+import { Button } from 'paper-album-ui';
 import { images } from '@/content/images';
 import { site } from '@/content/site';
 import { bigMountains, fireflies, ridge, VIEW_WIDTH } from '@/lib/landscape';

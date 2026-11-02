@@ -1,11 +1,7 @@
 'use client';
 
 import { useId, type ReactNode } from 'react';
-import { Input, type InputProps } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { NativeSelect, NativeSelectOption } from '@/components/ui/native-select';
-import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
-import { Textarea } from '@/components/ui/textarea';
+import { Input, type InputProps, Label, NativeSelect, NativeSelectOption, RadioGroup, RadioGroupItem, Textarea } from 'paper-album-ui';
 
 const star = (required?: boolean) => (required ? ' *' : '');
 

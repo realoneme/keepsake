@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Print } from '@/components/photo';
-import { Button } from '@/components/ui/button';
+import { Button } from 'paper-album-ui';
 import { images } from '@/content/images';
 import { site } from '@/content/site';
 
